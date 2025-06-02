@@ -12,6 +12,7 @@ import com.embabel.agent.domain.io.UserInput;
 import com.embabel.common.ai.model.BuildableLlmOptions;
 import com.embabel.common.ai.model.LlmOptions;
 import com.embabel.common.ai.model.ModelSelectionCriteria;
+import com.embabel.common.util.DummyInstanceCreator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Profile;
@@ -23,7 +24,7 @@ import static com.embabel.agent.api.annotation.ActionMethodPromptRunnerKt.using;
 
 @Agent(
         description = "Recommend books based on reading history, preferences, and personalized analysis",
-        scan = false
+        scan = true
 )
 public class BookRecommendationAgent {
 
@@ -32,6 +33,11 @@ public class BookRecommendationAgent {
 
     public BookRecommendationAgent(BookRecommendationProperties recommendationProperties) {
         this.recommendationProperties = recommendationProperties;
+    }
+
+    @Action
+    public ReadingHistory retrieveReadingHistory() {
+        throw new UnsupportedOperationException("Reading history object must be available or next action cannot run");
     }
 
     @Action
