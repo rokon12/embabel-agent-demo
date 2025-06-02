@@ -2,6 +2,7 @@
 package ca.bazlur.agent;
 
 import ca.bazlur.BookRecommendationProperties;
+import ca.bazlur.ReadingHistoryRepository;
 import ca.bazlur.model.ReadingHistory;
 import ca.bazlur.model.BookRecommendationReport;
 import ca.bazlur.model.ReadingMood;
@@ -12,10 +13,8 @@ import com.embabel.agent.domain.io.UserInput;
 import com.embabel.common.ai.model.BuildableLlmOptions;
 import com.embabel.common.ai.model.LlmOptions;
 import com.embabel.common.ai.model.ModelSelectionCriteria;
-import com.embabel.common.util.DummyInstanceCreator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.context.annotation.Profile;
 
 import java.util.Collections;
 import java.util.List;
@@ -30,14 +29,17 @@ public class BookRecommendationAgent {
 
     private static final Logger logger = LoggerFactory.getLogger(BookRecommendationAgent.class);
     private final BookRecommendationProperties recommendationProperties;
+    private final ReadingHistoryRepository readingHistoryRepository;
 
-    public BookRecommendationAgent(BookRecommendationProperties recommendationProperties) {
+    public BookRecommendationAgent(BookRecommendationProperties recommendationProperties, ReadingHistoryRepository readingHistoryRepository) {
         this.recommendationProperties = recommendationProperties;
+        this.readingHistoryRepository = readingHistoryRepository;
     }
 
     @Action
     public ReadingHistory retrieveReadingHistory() {
-        throw new UnsupportedOperationException("Reading history object must be available or next action cannot run");
+        logger.info("Retrieving reading history");
+        return this.readingHistoryRepository.findReadingHistory();
     }
 
     @Action
