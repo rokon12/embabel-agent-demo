@@ -11,6 +11,7 @@ import org.springframework.ai.mcp.client.autoconfigure.McpClientAutoConfiguratio
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Profile;
@@ -19,8 +20,8 @@ import java.time.Instant;
 
 
 @SpringBootApplication(scanBasePackages = {
-        "ca.bazlur.agent",
-        "ca.bazlur.model"
+        "ca.bazlur",
+        "com.embabel.agent",
 }, exclude = {McpClientAutoConfiguration.class})
 @EnableConfigurationProperties(BookRecommendationProperties.class)
 public class BookRecommendationApplication {
