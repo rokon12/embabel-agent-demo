@@ -1,0 +1,362 @@
+[
+  {
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "genre": "FICTION",
+    "isbn": "9780525559474",
+    "pageCount": 304,
+    "description": "Between life and death there is a library, and within that library, the shelves go on forever. Every book provides a chance to try another life you could have lived.",
+    "averageRating": 4.5
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "FICTION",
+    "isbn": "9780062315007",
+    "pageCount": 208,
+    "description": "A magical story about following your dreams.",
+    "averageRating": 4.7
+  },
+  {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "genre": "SCIENCE_FICTION",
+    "isbn": "9780593135204",
+    "pageCount": 496,
+    "description": "A lone astronaut must save the earth from disaster.",
+    "averageRating": 4.8
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genre": "SCIENCE_FICTION",
+    "isbn": "9780441172719",
+    "pageCount": 896,
+    "description": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world.",
+    "averageRating": 4.6
+  },
+  {
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "genre": "THRILLER",
+    "isbn": "9781250301697",
+    "pageCount": 336,
+    "description": "A woman shoots her husband five times and then never speaks another word.",
+    "averageRating": 4.2
+  },
+  {
+    "title": "Educated",
+    "author": "Tara Westover",
+    "genre": "BIOGRAPHY",
+    "isbn": "9780399590504",
+    "pageCount": 334,
+    "description": "A memoir about a young girl who, kept out of school, leaves her survivalist family and goes on to earn a PhD from Cambridge University.",
+    "averageRating": 4.9
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "SELF_HELP",
+    "isbn": "9780735211292",
+    "pageCount": 320,
+    "description": "Tiny Changes, Remarkable Results: An Easy & Proven Way to Build Good Habits & Break Bad Ones.",
+    "averageRating": 4.7
+  },
+  {
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "genre": "FANTASY",
+    "isbn": "9780756404741",
+    "pageCount": 722,
+    "description": "The riveting first-person narrative of a young man who grows to be the most notorious magician his world has ever seen.",
+    "averageRating": 4.8
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "ROMANCE",
+    "isbn": "9780141439518",
+    "pageCount": 480,
+    "description": "The story follows the main character, Elizabeth Bennet, as she deals with issues of manners, upbringing, morality, education, and marriage.",
+    "averageRating": 4.7
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "genre": "HISTORY",
+    "isbn": "9780062316097",
+    "pageCount": 464,
+    "description": "A groundbreaking narrative of humanity's creation and evolution.",
+    "averageRating": 4.6
+  },
+  {
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "genre": "MYSTERY",
+    "isbn": "9780307588371",
+    "pageCount": 432,
+    "description": "On a warm summer morning in North Carthage, Missouri, it is Nick and Amy Dunne's fifth wedding anniversary. Presents are being wrapped and reservations are being made when Nick's clever and beautiful wife disappears.",
+    "averageRating": 4.1
+  },
+  {
+    "title": "The Power of Habit",
+    "author": "Charles Duhigg",
+    "genre": "NON_FICTION",
+    "isbn": "9781400069286",
+    "pageCount": 400,
+    "description": "A young woman walks into a laboratory. Over the past two years, she has transformed almost every aspect of her life. She has quit smoking, run a marathon, and been promoted at work.",
+    "averageRating": 4.5
+  },
+  {
+    "title": "Good to Great",
+    "author": "Jim Collins",
+    "genre": "BUSINESS",
+    "isbn": "9780066620992",
+    "pageCount": 320,
+    "description": "Built to Last, the defining management study of the nineties, showed how great companies triumph over time and how long-term sustained performance can be engineered into the DNA of an enterprise from the very beginning.",
+    "averageRating": 4.3
+  },
+  {
+    "title": "Why We Sleep",
+    "author": "Matthew Walker",
+    "genre": "HEALTH",
+    "isbn": "9781501144325",
+    "pageCount": 368,
+    "description": "Neuroscientist and sleep expert Matthew Walker provides a revolutionary exploration of sleep, examining how it affects every aspect of our physical and mental well-being.",
+    "averageRating": 4.7
+  },
+  {
+    "title": "In a Sunburned Country",
+    "author": "Bill Bryson",
+    "genre": "TRAVEL",
+    "isbn": "9780767903868",
+    "pageCount": 352,
+    "description": "Every time Bill Bryson walks out the door, memorable travel literature threatens to break out. This time in Australia.",
+    "averageRating": 4.4
+  },
+  {
+    "title": "Salt, Fat, Acid, Heat",
+    "author": "Samin Nosrat",
+    "genre": "COOKING",
+    "isbn": "9781476753836",
+    "pageCount": 480,
+    "description": "A visionary new master class in cooking that distills decades of professional experience into just four simple elements, from the woman declared 'America's next great cooking teacher' by Alice Waters.",
+    "averageRating": 4.8
+  },
+  {
+    "title": "The Story of Art",
+    "author": "E.H. Gombrich",
+    "genre": "ART",
+    "isbn": "9780714833552",
+    "pageCount": 688,
+    "description": "The Story of Art, one of the most famous and popular books on art ever written, has been a world bestseller for over four decades.",
+    "averageRating": 4.5
+  },
+  {
+    "title": "Milk and Honey",
+    "author": "Rupi Kaur",
+    "genre": "POETRY",
+    "isbn": "9781449474256",
+    "pageCount": 208,
+    "description": "A collection of poetry and prose about survival. About the experience of violence, abuse, love, loss, and femininity.",
+    "averageRating": 4.2
+  },
+  {
+    "title": "Hamlet",
+    "author": "William Shakespeare",
+    "genre": "DRAMA",
+    "isbn": "9780743477123",
+    "pageCount": 342,
+    "description": "The Tragedy of Hamlet, Prince of Denmark, often shortened to Hamlet, is a tragedy written by William Shakespeare sometime between 1599 and 1601.",
+    "averageRating": 4.6
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "genre": "YOUNG_ADULT",
+    "isbn": "9780590353427",
+    "pageCount": 320,
+    "description": "Harry Potter has no idea how famous he is. That's because he's being raised by his miserable aunt and uncle who are terrified Harry will learn that he's really a wizard, just as his parents were.",
+    "averageRating": 4.9
+  },
+  {
+    "title": "Charlotte's Web",
+    "author": "E.B. White",
+    "genre": "CHILDREN",
+    "isbn": "9780064410939",
+    "pageCount": 192,
+    "description": "This beloved book by E. B. White, author of Stuart Little and The Trumpet of the Swan, is a classic of children's literature that is 'just about perfect.'",
+    "averageRating": 4.8
+  },
+  {
+    "title": "A Man Called Ove",
+    "author": "Fredrik Backman",
+    "genre": "FICTION",
+    "isbn": "9781476738024",
+    "pageCount": 337,
+    "description": "A curmudgeonly yet loveable man finds his solitary world turned on its head when a boisterous young family moves in next door.",
+    "averageRating": 4.6
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "genre": "NON_FICTION",
+    "isbn": "9780374533557",
+    "pageCount": 512,
+    "description": "Kahneman takes us on a groundbreaking tour of the mind and explains the two systems that drive the way we think.",
+    "averageRating": 4.7
+  },
+  {
+    "title": "Normal People",
+    "author": "Sally Rooney",
+    "genre": "FICTION",
+    "isbn": "9781984822178",
+    "pageCount": 288,
+    "description": "The story of Connell and Marianne who circle each other through their teenage years and into adulthood, navigating love, friendship, and the power imbalance of their social worlds.",
+    "averageRating": 4.5
+  },
+  {
+    "title": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "genre": "FICTION",
+    "isbn": "9780735219106",
+    "pageCount": 384,
+    "description": "A coming-of-age murder mystery set in the marshes of North Carolina.",
+    "averageRating": 4.6
+  },
+  {
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "genre": "SELF_HELP",
+    "isbn": "9780062457714",
+    "pageCount": 224,
+    "description": "A counterintuitive approach to living a good life.",
+    "averageRating": 4.2
+  },
+  {
+    "title": "Circe",
+    "author": "Madeline Miller",
+    "genre": "FANTASY",
+    "isbn": "9780316556347",
+    "pageCount": 393,
+    "description": "A bold and subversive retelling of the goddess Circe's story.",
+    "averageRating": 4.7
+  },
+  {
+    "title": "Educated Guess",
+    "author": "Ben Orlin",
+    "genre": "NON_FICTION",
+    "isbn": "9781250771278",
+    "pageCount": 320,
+    "description": "A mathematician explores the limits of knowledge and certainty.",
+    "averageRating": 4.3
+  },
+  {
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "genre": "HISTORICAL_FICTION",
+    "isbn": "9780375842207",
+    "pageCount": 552,
+    "description": "The story of Liesel, a girl living in Nazi Germany, and her love affair with books.",
+    "averageRating": 4.8
+  },
+  {
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "genre": "SCIENCE_FICTION",
+    "isbn": "9780553418026",
+    "pageCount": 369,
+    "description": "An astronaut becomes stranded on Mars and must use his ingenuity to survive.",
+    "averageRating": 4.7
+  },
+  {
+    "title": "The Girl on the Train",
+    "author": "Paula Hawkins",
+    "genre": "THRILLER",
+    "isbn": "9781594634024",
+    "pageCount": 336,
+    "description": "A psychological thriller that will forever change the way you look at other people's lives.",
+    "averageRating": 4.3
+  },
+  {
+    "title": "Little Fires Everywhere",
+    "author": "Celeste Ng",
+    "genre": "FICTION",
+    "isbn": "9780735224315",
+    "pageCount": 352,
+    "description": "The intertwined fates of the picture-perfect Richardson family and an enigmatic mother and daughter who upend their lives.",
+    "averageRating": 4.6
+  },
+  {
+    "title": "Outliers",
+    "author": "Malcolm Gladwell",
+    "genre": "NON_FICTION",
+    "isbn": "9780316017930",
+    "pageCount": 336,
+    "description": "Gladwell examines the factors that contribute to high levels of success.",
+    "averageRating": 4.4
+  },
+  {
+    "title": "Quiet",
+    "author": "Susan Cain",
+    "genre": "NON_FICTION",
+    "isbn": "9780307352156",
+    "pageCount": 368,
+    "description": "Cain argues that we dramatically undervalue introverts and shows how much we lose in doing so.",
+    "averageRating": 4.5
+  },
+  {
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "genre": "BIOGRAPHY",
+    "isbn": "9781524763138",
+    "pageCount": 448,
+    "description": "An intimate, powerful, and inspiring memoir by the former First Lady of the United States.",
+    "averageRating": 4.8
+  },
+  {
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "genre": "PHILOSOPHY",
+    "isbn": "9781590302255",
+    "pageCount": 273,
+    "description": "An ancient Chinese military treatise that is still widely read today.",
+    "averageRating": 4.5
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "genre": "FICTION",
+    "isbn": "9780307387899",
+    "pageCount": 287,
+    "description": "A father and son journey through a post-apocalyptic wasteland.",
+    "averageRating": 4.3
+  },
+  {
+    "title": "Cloud Atlas",
+    "author": "David Mitchell",
+    "genre": "FICTION",
+    "isbn": "9780375507250",
+    "pageCount": 509,
+    "description": "A novel consisting of six interconnected stories spanning different time periods.",
+    "averageRating": 4.4
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "genre": "FICTION",
+    "isbn": "9780385490818",
+    "pageCount": 311,
+    "description": "A dystopian novel set in a totalitarian society run by fundamentalists.",
+    "averageRating": 4.7
+  },
+  {
+    "title": "Norwegian Wood",
+    "author": "Haruki Murakami",
+    "genre": "FICTION",
+    "isbn": "9780375704024",
+    "pageCount": 386,
+    "description": "A poignant story of one college student’s romantic coming-of-age in Tokyo.",
+    "averageRating": 4.5
+  }
+]

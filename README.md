@@ -9,11 +9,11 @@
 
 ## Overview
 
-This project demonstrates the capabilities of the Embabel Agent framework by implementing a sophisticated book recommendation system. The system analyzes a user's reading history and preferences to generate personalized book recommendations, curated reading lists, and reading pattern insights.
+This project demonstrates the capabilities of the Embabel Agent framework by implementing a sophisticated book recommendation system. The system analyzes a user's preferences to generate personalized book recommendations, curated reading lists, and reading insights.
 
 ## Features
 
-- **Personalized Book Recommendations**: Generate tailored book recommendations based on reading history, preferences, and user requests.
+- **Personalized Book Recommendations**: Generate tailored book recommendations based on user preferences and requests.
 - **Thematic Reading Lists**: Create curated reading lists focused on specific themes or topics.
 - **Reading Horizon Expansion**: Suggest books that expand a user's reading comfort zone into new genres and styles.
 - **Reading Pattern Analysis**: Analyze reading habits and patterns to provide insights and optimization suggestions.
@@ -78,18 +78,20 @@ book.recommendation.recommendation-llm=gpt-4o
 ### Programmatic API
 
 ```java
-// Create a sample reading history
-ReadingHistory readingHistory = ReadingHistory.createSampleHistory();
+// Create user input with preferences
+UserInput userInput = new UserInput("I'm looking for science fiction books similar to Project Hail Mary", Instant.now());
+
+// Extract user preferences from input
+UserPreferences userPreferences = engine.extractUserPreferences(userInput);
 
 // Generate personalized recommendations
-UserInput userInput = new UserInput("I'm looking for books similar to Project Hail Mary", Instant.now());
-BookRecommendationReport report = engine.generatePersonalizedRecommendations(userInput, readingHistory);
+BookRecommendationReport report = engine.generatePersonalizedRecommendations(userInput, userPreferences);
 ```
 
 ## Future Enhancements
 
 - Integration with external book APIs for real-time data
-- User accounts and persistent reading history
+- User accounts and persistent preferences
 - Social features for sharing recommendations
 - Mobile application
 - Advanced search and filtering options
